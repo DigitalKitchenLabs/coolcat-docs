@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
 	title: "CoolCat Docs",
 	tagline: "A Documental Journey",
-	url: "https://your-docusaurus-test-site.com",
+	url: "https://docs.coolcat.space",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
-	organizationName: "facebook", // Usually your GitHub org/user name.
-	projectName: "docusaurus", // Usually your repo name.
+	organizationName: "DigitalKitchenLabs", // Usually your GitHub org/user name.
+	projectName: "CoolCat Docs", // Usually your repo name.
 
 	presets: [
 		[
@@ -50,8 +50,8 @@ const config = {
 					src: "img/logo.svg"
 				},
 				items: [
-					{ to: "/blog", label: "Official Blog", position: "right" },
-					{ to: "/docs", label: "Whitepaper", position: "left" },
+					{ to: "https://coolcat.blog/", label: "Official Blog", position: "right" },
+					{ to: "/docs/whitepaper", label: "Whitepaper", position: "left" },
 					{
 						href: "https://github.com/digitalkitchenlab/coolcatd",
 						label: "GitHub",
