@@ -1,0 +1,57 @@
+{
+  "title": "Home",
+  "heading": true,
+  "path": "/",
+  "routes": [
+    {
+      "heading": true,
+      "path": "",
+      "routes": [
+        {
+          "title": "Overview",
+          "path": "/",
+          "routes": [
+            {
+              "title": "Socialize",
+              "path": "/basics/socialize"
+            },
+            {
+              "title": "Play",
+              "path": "/basics/play"
+            },
+            {
+              "title": "Profit",
+              "path": "/basics/profit"
+            }
+          ]
+        },
+        {
+          "title": "Technology",
+          "path": "/tech",
+          "routes": [
+            {
+              "title": "Inter Blockchain Communication",
+              "path": "/tech/ibc"
+            },
+            {
+              "title": "CosmWasm",
+              "path": "/tech/cosmwasm"
+            },
+            {
+              "title": "Tokenomics",
+              "path": "/tech/token"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "path": "/community"
+        },
+        {
+          "title": "Brand",
+          "path": "/brand"
+        }
+      ]
+    }
+  ]
+}

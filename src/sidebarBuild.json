@@ -1,0 +1,35 @@
+{
+  "title": "Build",
+  "heading": true,
+  "path": "/build",
+  "routes": [
+    {
+      "heading": true,
+      "path": "",
+      "routes": [
+        {
+          "title": "Overview",
+          "path": "/build"
+        },
+        {
+          "title": "Setup",
+          "path": "/build/setup",
+          "routes": [
+            {
+              "title": "Getting Started",
+              "path": "/build/setup/getting-started"
+            },
+            {
+              "title": "Join Testnet",
+              "path": "/build/setup/testnet"
+            },
+            {
+              "title": "Join Mainnet",
+              "path": "/build/setup/mainnet"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
