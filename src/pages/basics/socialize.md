@@ -4,11 +4,16 @@ title: Socialize
 
 <Intro>
 
-Welcome to the React documentation! This page will give you an introduction to the 80% of React concepts that you will use on a daily basis.
+Welcome to CoolCat! On this page you can find information on the social side of CoolCat including details on how player-owned guilds will work and much more
 
 </Intro>
 
-<YouWillLearn>
+<TerminalBlock>coolcatd keys add "username"</TerminalBlock>
+
+<Gotcha>This is a warning container </Gotcha>
+<Note>This is a note container</Note>
+
+<YouWillLearn isChapter>
 
 - CoolCat Profile, on-chain indentity owned as an untradable NFT
 - Friends List
